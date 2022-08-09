@@ -1,0 +1,132 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  }
+.rootdiv{
+  max-height: 50%;
+  max-width: 80%;
+  margin: auto;
+  background-color: #FFFAFA;
+  box-shadow: 15px 15px 30px #bebebe,
+  -15px -15px 30px #e5e4e2;
+  border-radius: 1em;
+  padding: 25px 15px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+ }
+@media screen and (max-width: 992px) {
+  .social-menu{
+    justify-content: space-between;
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    font-size: 150%;
+  }
+  .links a{
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #088F8F;
+    color: #088F8F;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .links .cv{
+    background: #088F8F;
+    color: #FFFAFA;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 993px) {
+  .social-menu{
+    justify-content: space-between;
+    display: flex;
+    max-width: 30vw;
+    margin: auto;
+    font-size: 150%;
+  }
+  .links a{
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #088F8F;
+    color: #088F8F;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .links .cv{
+    background: #088F8F;
+    color: #FFFAFA;
+    margin-left: 10px;
+    
+  }
+}
+#telegram{
+  color: black;
+}
+.telegram :hover{
+  transition-duration: 0.3s;
+  color: #0088CC !important;
+}
+#twitter{
+  color: black;
+}
+.twitter :hover{
+  transition-duration: 0.3s;
+  color: #00acee  !important;
+}
+#linkedin{
+  color: black;
+}
+.linkedin :hover{
+  transition-duration: 0.3s;
+  color: #0072b1  !important;
+}
+#email{
+  color: black;
+}
+.email :hover{
+  transition-duration: 0.3s;
+  color: #D2042D !important;
+}
+.photo{
+  height: 23%;
+  width: 30%;
+  border-radius: 50%;
+  margin-left: 35%;
+}
+.name{
+  font-size: larger;
+}
+.heading{
+  font-size: larger;
+}
+.bio{
+  font-size: large;
+}
+#cimg{
+  height: 270px;
+}
+
+.auto-text{
+  color: #3CB371;
+}
+.home{
+  text-align: center;
+}
+.home a{
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 2px solid #088F8F;
+  color: #088F8F;
+  padding: 8px 20px;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+.home :hover{
+  transition-duration: 0.4s;
+  background: #088F8F;
+  color: #FFFAFA;
+}
